@@ -1,3 +1,4 @@
+import 'package:firstly/homePage.dart';
 import 'package:firstly/pallete.dart';
 import 'package:firstly/singUp_screen.dart';
 import 'package:flutter/material.dart';
@@ -15,9 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: Pallete.backgroundColor,
+        scaffoldBackgroundColor: Pallete.whiteColor,
+        useMaterial3: true,
       ),
-      home: const SingUpScreen(),
+      home: const HomePage(),
     );
   }
 }
