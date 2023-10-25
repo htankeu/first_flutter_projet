@@ -1,6 +1,7 @@
 
 
 import 'package:firstly/widgets/health_needs.dart';
+import 'package:firstly/widgets/nearby_doctors.dart';
 import 'package:firstly/widgets/upcoming_card.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,7 @@ class HomePage extends StatelessWidget{
           ],
         ),
         actions: [
-          IconButton(onPressed: ()=>{}, icon: const Icon(Icons.notifications_outlined)),
+          IconButton(onPressed: ()=>{}, icon: const Icon(Icons.view_list)),
           IconButton(onPressed: ()=>{}, icon: const Icon(Icons.search_outlined))
         ],
       ),
@@ -52,6 +53,7 @@ class HomePage extends StatelessWidget{
           ),
 
           // Nearby Doctors
+          const NearbyDoctors()
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
