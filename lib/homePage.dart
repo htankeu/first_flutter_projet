@@ -1,5 +1,6 @@
 
 
+import 'package:firstly/widgets/health_needs.dart';
 import 'package:firstly/widgets/upcoming_card.dart';
 import 'package:flutter/material.dart';
 
@@ -32,12 +33,23 @@ class HomePage extends StatelessWidget{
       ),
       body: ListView(
         padding: const EdgeInsets.all(14),
-        children: const [
+        children:  [
           // upcoming card
-          UpcomingCard()
+          const UpcomingCard(),
+          const SizedBox(height:20),
+          Text(
+            "Health Needs",
+            style: Theme.of(context).textTheme.headlineLarge,
+          ),
+          const SizedBox(height:18),
 
           // Health needs
-
+          const HealthNeeds(),
+          const SizedBox(height:30),
+          Text(
+            "Nearby Doctors",
+            style: Theme.of(context).textTheme.headlineLarge,
+          ),
 
           // Nearby Doctors
         ],

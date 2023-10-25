@@ -67,6 +67,10 @@ flutter:
     - assets/images/doctor_3.png
     - assets/images/doctor_4.png
     - assets/images/doctor_5.png
+    - assets/images/ambulace.png
+    - assets/images/examine.png
+    - assets/images/kits_medical.png
+    - assets/images/pharmacie.png
     - assets/svgs/icons8-facebook.svg
     - assets/svgs/icons8-google.svg
     - assets/svgs/key-solid.svg
