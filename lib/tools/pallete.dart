@@ -10,6 +10,7 @@ class Pallete{
   static const Color borderColor = Color.fromRGBO(52,51,67,1);
   static const Color whiteColor = Colors.white;
   static const Color transpWhite = Colors.white10;
+  static const Color goldColor = Color.fromARGB(255, 233, 194, 22);
   static const Color transparenceColor1 = Colors.transparent;
   // ignore: constant_identifier_names
   static const Color primary_op = Color.fromRGBO(26, 53, 206, 0.8);

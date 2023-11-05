@@ -1,4 +1,4 @@
-import 'package:firstly/pallete.dart';
+import 'package:firstly/tools/pallete.dart';
 import 'package:flutter/material.dart';
 
 class GradientButton extends StatelessWidget{

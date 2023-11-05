@@ -51,6 +51,7 @@ class HomePage extends StatelessWidget{
             "Nearby Doctors",
             style: Theme.of(context).textTheme.headlineLarge,
           ),
+          const SizedBox(height: 15,),
 
           // Nearby Doctors
           const NearbyDoctors()

@@ -1,5 +1,6 @@
 {
     "DockerRun.DisableDockerrc": true,
     "cmake.sourceDirectory": "/home/heda/flutter-projet/firstFlutter/first_flutter_projet/linux/flutter",
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "C_Cpp.dimInactiveRegions": false
 }

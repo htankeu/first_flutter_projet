@@ -1,6 +1,6 @@
-import 'package:firstly/homePage.dart';
-import 'package:firstly/pallete.dart';
-import 'package:firstly/singUp_screen.dart';
+import 'package:firstly/screens/homePage.dart';
+import 'package:firstly/tools/pallete.dart';
+import 'package:firstly/screens/singUp_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Book My Time',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Pallete.backgroundColor,
         useMaterial3: true,
