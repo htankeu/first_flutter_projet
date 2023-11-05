@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Pallete.backgroundColor,
         useMaterial3: true,
       ),
+      debugShowCheckedModeBanner: false,
       home: const HomePage(),
     );
   }
